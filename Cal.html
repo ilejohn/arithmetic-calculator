@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="../bootstrap-4.0.0-beta.2/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="Cal.css">
+
+        <!--[if lt IE 9]>
+        <script
+        src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js">
+        </script>
+        <script
+        src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js">
+        </script>
+        <![endif]-->
+    </head>
+    <body>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-10 offset-2">
+
+                    <div class="card border-secondary mt-5" style="width: 20rem;">
+                        <div class="card-header py-4">
+                            <div class="card-title">
+                                <h5 class="text-left"> Calculator</h5>
+								<div class="display"><p id="display1"></p><p class="text-right"><br><small id="display2"></small></p></div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="row mt-2 mb-3" style="margin-left: -1.3rem; margin-right: -1.1rem;">
+                                <div class="col-2 px-1"><a id="7" class="btn btn-sm btn-secondary w-100 px-4">7</a></div>
+                                <div class="col-2 px-1"><a id="8" class="btn btn-sm btn-secondary w-100 px-4">8</a></div>
+                                <div class="col-2 px-1"><a id="9" class="btn btn-sm btn-secondary w-100 px-4">9</a></div>
+                                <div class="col-2 px-1"><a id="divide" class="btn btn-sm btn-secondary w-100 px-4">&divide;</a></div>
+                                <div class="col-2 px-1"><a id="c" class="btn btn-sm btn-secondary w-100 px-4">c</a></div>
+                                <div class="col-2 px-1"><a id="delete" class="btn btn-sm btn-secondary w-100 px-4">&larr;</a></div>
+                            </div>
+
+                            <div class="row mb-3" style="margin-left: -1.3rem; margin-right: -1.1rem;">
+								                <div class="col-2 px-1"><a id="4" class="btn btn-sm btn-secondary w-100 px-4">4</a></div>
+								                <div class="col-2 px-1"><a id="5" class="btn btn-sm btn-secondary w-100 px-4">5</a></div>
+								                <div class="col-2 px-1"><a id="6" class="btn btn-sm btn-secondary w-100 px-4">6</a></div>
+								                <div class="col-2 px-1"><a id="times" class="btn btn-sm btn-secondary w-100 px-4">&times;</a></div>
+								                <div class="col-2 px-1"><a id="open" class="btn btn-sm btn-secondary w-100 px-4">&#40;</a></div>
+								                <div class="col-2 px-1"><a id="close" class="btn btn-sm btn-secondary w-100 px-4">&#41;</a></div>
+                            </div>
+
+                            <div class="row mb-3" style="margin-left: -1.3rem; margin-right: -1.1rem;">
+                                <div class="col-2 px-1"><a id="1" class="btn btn-sm btn-secondary w-100 px-4">1</a></div>
+                                <div class="col-2 px-1"><a id="2" class="btn btn-sm btn-secondary w-100 px-4">2</a></div>
+                                <div class="col-2 px-1"><a id="3" class="btn btn-sm btn-secondary w-100 px-4">3</a></div>
+                                <div class="col-2 px-1"><a id="minus" class="btn btn-sm btn-secondary w-100 px-4">&minus;</a></div>
+                                <div class="col-2 px-1"><a id="square" class="btn btn-sm btn-secondary w-100 px-4">x&sup2;</a></div>
+                                <div class="col-2 px-1"><a id="root" class="btn btn-sm btn-secondary w-100 px-4">&radic;</a></div>
+                            </div>
+
+                            <div class="row mb-1" style="margin-left: -1.3rem; margin-right: -1.1rem;">
+                                <div class="col-2 px-1"><a id="0" class="btn btn-sm btn-secondary w-100 px-4">0</a></div>
+                                <div class="col-2 px-1"><a id="dot" class="btn btn-sm btn-secondary w-100 px-4">&#46;</a></div>
+                                <div class="col-2 px-1"><a id="percent" class="btn btn-sm btn-secondary w-100 px-4">&#37;</a></div>
+                                <div class="col-2 px-1"><a id="plus" class="btn btn-sm btn-secondary w-100 px-4">&#43;</a></div>
+                                <div class="col-4" style="padding-left: 0.25rem; padding-right: 0.01rem; margin-right: -0.03rem;"><a id="equal" class="btn btn-sm btn-secondary w-100">&#61;</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../bootstrap-4.0.0-beta.2/assets/js/vendor/jquery-slim.min.js"></script>
+    <script src="../bootstrap-4.0.0-beta.2/assets/js/vendor/popper.min.js"></script>
+    <script src="../bootstrap-4.0.0-beta.2/dist/js/bootstrap.js"></script>
+    <script src="Cal.js"></script>
+    </body>
+</html>
